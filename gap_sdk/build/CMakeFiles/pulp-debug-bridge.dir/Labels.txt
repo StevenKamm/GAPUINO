@@ -1,0 +1,13 @@
+# Target labels
+ pulp-debug-bridge
+# Source files and their labels
+/home/osboxes/gap_sdk/build/CMakeFiles/pulp-debug-bridge
+/home/osboxes/gap_sdk/build/CMakeFiles/pulp-debug-bridge.rule
+/home/osboxes/gap_sdk/build/CMakeFiles/pulp-debug-bridge-complete.rule
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-stamp/pulp-debug-bridge-install.rule
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-stamp/pulp-debug-bridge-mkdir.rule
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-stamp/pulp-debug-bridge-download.rule
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-stamp/pulp-debug-bridge-update.rule
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-stamp/pulp-debug-bridge-patch.rule
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-stamp/pulp-debug-bridge-configure.rule
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-stamp/pulp-debug-bridge-build.rule

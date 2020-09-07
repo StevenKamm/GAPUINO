@@ -1,0 +1,12 @@
+var structpi__hyperram__conf =
+[
+    [ "baudrate", "structpi__hyperram__conf.html#a33e4bd9d629f069b38805a18206ce4b1", null ],
+    [ "hyper_cs", "structpi__hyperram__conf.html#a1874a38ab9e0865b66dafd4f431779b5", null ],
+    [ "hyper_itf", "structpi__hyperram__conf.html#a0682a7dfa0336a2dc7626f28e6d43a10", null ],
+    [ "ram", "structpi__hyperram__conf.html#aefea789317ad5218410cba009a992778", null ],
+    [ "ram_size", "structpi__hyperram__conf.html#afc287cb94540786b88b312e7d8a34ade", null ],
+    [ "ram_start", "structpi__hyperram__conf.html#ab678a791910b005e555e7583ce0a53a2", null ],
+    [ "reserve_addr_0", "structpi__hyperram__conf.html#ae6c81a5833c68be4ac3cca2a93754891", null ],
+    [ "skip_pads_config", "structpi__hyperram__conf.html#a7f532a8869af9789cda2321cecdce1e1", null ],
+    [ "xip_en", "structpi__hyperram__conf.html#a0f0441d706286efc0fa8fc99ff7ff753", null ]
+];

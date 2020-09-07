@@ -1,0 +1,174 @@
+The target system is: Generic -  - GAP8
+The host system is: Linux - 5.0.0-23-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc 
+Build flags: -march=rv32imcxgap8;-mPE=8;-mFC=1;-D__riscv__;-D__pulp__;-fdata-sections;-ffunction-sections;-fno-jump-tables;-fno-tree-loop-distribute-patterns
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_695f7/fast"
+make[5]: Entering directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_695f7.dir/build.make CMakeFiles/cmTC_695f7.dir/build
+make[6]: Entering directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_695f7.dir/testCCompiler.c.obj
+/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc   -march=rv32imcxgap8 -mPE=8 -mFC=1 -D__riscv__ -D__pulp__ -fdata-sections -ffunction-sections -fno-jump-tables -fno-tree-loop-distribute-patterns    -o CMakeFiles/cmTC_695f7.dir/testCCompiler.c.obj   -c /home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_695f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_695f7.dir/link.txt --verbose=1
+/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc -march=rv32imcxgap8 -mPE=8 -mFC=1 -D__riscv__ -D__pulp__ -fdata-sections -ffunction-sections -fno-jump-tables -fno-tree-loop-distribute-patterns   -T/home/osboxes/gap_sdk/install/workstation/ld/link.gap8.ld -T/home/osboxes/gap_sdk/install/workstation/ld/gapuino.conf.ld -nostartfiles -nostdlib -Wl,--gc-sections  CMakeFiles/cmTC_695f7.dir/testCCompiler.c.obj  -o cmTC_695f7 
+/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 000000001c000000
+make[6]: Leaving directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+make[5]: Leaving directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6b729/fast"
+make[5]: Entering directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6b729.dir/build.make CMakeFiles/cmTC_6b729.dir/build
+make[6]: Entering directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj
+/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc   -march=rv32imcxgap8 -mPE=8 -mFC=1 -D__riscv__ -D__pulp__ -fdata-sections -ffunction-sections -fno-jump-tables -fno-tree-loop-distribute-patterns    -o CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_6b729
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b729.dir/link.txt --verbose=1
+/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc -march=rv32imcxgap8 -mPE=8 -mFC=1 -D__riscv__ -D__pulp__ -fdata-sections -ffunction-sections -fno-jump-tables -fno-tree-loop-distribute-patterns   -T/home/osboxes/gap_sdk/install/workstation/ld/link.gap8.ld -T/home/osboxes/gap_sdk/install/workstation/ld/gapuino.conf.ld -nostartfiles -nostdlib -Wl,--gc-sections -v CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj  -o cmTC_6b729 
+Using built-in specs.
+COLLECT_GCC=/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/riscv32-unknown-elf/7.1.1/lto-wrapper
+Target: riscv32-unknown-elf
+Configured with: /home/haugoug/src/riscv-gnu-toolchain/riscv-gcc/configure --target=riscv32-unknown-elf --prefix=/home/haugoug/src/riscv-gnu-toolchain/install --disable-shared --disable-threads --enable-languages=c,c++ --with-system-zlib --enable-tls --with-newlib --with-headers=/home/haugoug/src/riscv-gnu-toolchain/install/riscv32-unknown-elf/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --enable-checking=yes --enable-multilib --with-abi=ilp32 --with-arch=rv32imcxgap9 'CFLAGS_FOR_TARGET=-Os  -mcmodel=medlow'
+Thread model: single
+gcc version 7.1.1 20170509 (GCC) 
+COMPILER_PATH=/usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/riscv32-unknown-elf/7.1.1/:/usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/:/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/bin/
+LIBRARY_PATH=/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap8/ilp32/:/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/lib/rv32imcxgap8/ilp32/:/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/:/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/:/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/lib/:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-march=rv32imcxgap8' '-mPE=8' '-mFC=1' '-D' '__riscv__' '-D' '__pulp__' '-fdata-sections' '-ffunction-sections' '-fno-jump-tables' '-fno-tree-loop-distribute-patterns' '-T' '/home/osboxes/gap_sdk/install/workstation/ld/link.gap8.ld' '-T' '/home/osboxes/gap_sdk/install/workstation/ld/gapuino.conf.ld' '-nostartfiles' '-nostdlib' '-v' '-o' 'cmTC_6b729' '-mabi=ilp32'
+ /usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/riscv32-unknown-elf/7.1.1/collect2 -plugin /usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/riscv32-unknown-elf/7.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/riscv32-unknown-elf/7.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVdI0r3.res -melf32lriscv --march=rv32imcxgap8 --mPE=8 --mFC=1 -o cmTC_6b729 -L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap8/ilp32 -L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/lib/rv32imcxgap8/ilp32 -L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1 -L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc -L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/lib --gc-sections CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj -T /home/osboxes/gap_sdk/install/workstation/ld/link.gap8.ld -T /home/osboxes/gap_sdk/install/workstation/ld/gapuino.conf.ld
+/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 000000001c000000
+COLLECT_GCC_OPTIONS='-march=rv32imcxgap8' '-mPE=8' '-mFC=1' '-D' '__riscv__' '-D' '__pulp__' '-fdata-sections' '-ffunction-sections' '-fno-jump-tables' '-fno-tree-loop-distribute-patterns' '-T' '/home/osboxes/gap_sdk/install/workstation/ld/link.gap8.ld' '-T' '/home/osboxes/gap_sdk/install/workstation/ld/gapuino.conf.ld' '-nostartfiles' '-nostdlib' '-v' '-o' 'cmTC_6b729' '-mabi=ilp32'
+make[6]: Leaving directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+make[5]: Leaving directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv32-unknown-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6b729/fast"]
+  ignore line: [make[5]: Entering directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6b729.dir/build.make CMakeFiles/cmTC_6b729.dir/build]
+  ignore line: [make[6]: Entering directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc   -march=rv32imcxgap8 -mPE=8 -mFC=1 -D__riscv__ -D__pulp__ -fdata-sections -ffunction-sections -fno-jump-tables -fno-tree-loop-distribute-patterns    -o CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_6b729]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b729.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc -march=rv32imcxgap8 -mPE=8 -mFC=1 -D__riscv__ -D__pulp__ -fdata-sections -ffunction-sections -fno-jump-tables -fno-tree-loop-distribute-patterns   -T/home/osboxes/gap_sdk/install/workstation/ld/link.gap8.ld -T/home/osboxes/gap_sdk/install/workstation/ld/gapuino.conf.ld -nostartfiles -nostdlib -Wl,--gc-sections -v CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj  -o cmTC_6b729 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/riscv32-unknown-elf/7.1.1/lto-wrapper]
+  ignore line: [Target: riscv32-unknown-elf]
+  ignore line: [Configured with: /home/haugoug/src/riscv-gnu-toolchain/riscv-gcc/configure --target=riscv32-unknown-elf --prefix=/home/haugoug/src/riscv-gnu-toolchain/install --disable-shared --disable-threads --enable-languages=c,c++ --with-system-zlib --enable-tls --with-newlib --with-headers=/home/haugoug/src/riscv-gnu-toolchain/install/riscv32-unknown-elf/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --enable-checking=yes --enable-multilib --with-abi=ilp32 --with-arch=rv32imcxgap9 'CFLAGS_FOR_TARGET=-Os  -mcmodel=medlow']
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 7.1.1 20170509 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/riscv32-unknown-elf/7.1.1/:/usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/:/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap8/ilp32/:/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/lib/rv32imcxgap8/ilp32/:/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/:/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/:/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/lib/:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imcxgap8' '-mPE=8' '-mFC=1' '-D' '__riscv__' '-D' '__pulp__' '-fdata-sections' '-ffunction-sections' '-fno-jump-tables' '-fno-tree-loop-distribute-patterns' '-T' '/home/osboxes/gap_sdk/install/workstation/ld/link.gap8.ld' '-T' '/home/osboxes/gap_sdk/install/workstation/ld/gapuino.conf.ld' '-nostartfiles' '-nostdlib' '-v' '-o' 'cmTC_6b729' '-mabi=ilp32']
+  link line: [ /usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/riscv32-unknown-elf/7.1.1/collect2 -plugin /usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/riscv32-unknown-elf/7.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/riscv32-unknown-elf/7.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVdI0r3.res -melf32lriscv --march=rv32imcxgap8 --mPE=8 --mFC=1 -o cmTC_6b729 -L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap8/ilp32 -L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/lib/rv32imcxgap8/ilp32 -L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1 -L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc -L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/lib --gc-sections CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj -T /home/osboxes/gap_sdk/install/workstation/ld/link.gap8.ld -T /home/osboxes/gap_sdk/install/workstation/ld/gapuino.conf.ld]
+    arg [/usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/riscv32-unknown-elf/7.1.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/riscv32-unknown-elf/7.1.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gap_riscv_toolchain/bin/../libexec/gcc/riscv32-unknown-elf/7.1.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccVdI0r3.res] ==> ignore
+    arg [-melf32lriscv] ==> ignore
+    arg [--march=rv32imcxgap8] ==> ignore
+    arg [--mPE=8] ==> ignore
+    arg [--mFC=1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6b729] ==> ignore
+    arg [-L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap8/ilp32] ==> dir [/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap8/ilp32]
+    arg [-L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/lib/rv32imcxgap8/ilp32] ==> dir [/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/lib/rv32imcxgap8/ilp32]
+    arg [-L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1] ==> dir [/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1]
+    arg [-L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc] ==> dir [/usr/lib/gap_riscv_toolchain/bin/../lib/gcc]
+    arg [-L/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/lib] ==> dir [/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-T] ==> ignore
+    arg [/home/osboxes/gap_sdk/install/workstation/ld/link.gap8.ld] ==> ignore
+    arg [-T] ==> ignore
+    arg [/home/osboxes/gap_sdk/install/workstation/ld/gapuino.conf.ld] ==> ignore
+  collapse library dir [/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap8/ilp32] ==> [/usr/lib/gap_riscv_toolchain/lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap8/ilp32]
+  collapse library dir [/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/lib/rv32imcxgap8/ilp32] ==> [/usr/lib/gap_riscv_toolchain/riscv32-unknown-elf/lib/rv32imcxgap8/ilp32]
+  collapse library dir [/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1] ==> [/usr/lib/gap_riscv_toolchain/lib/gcc/riscv32-unknown-elf/7.1.1]
+  collapse library dir [/usr/lib/gap_riscv_toolchain/bin/../lib/gcc] ==> [/usr/lib/gap_riscv_toolchain/lib/gcc]
+  collapse library dir [/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/lib] ==> [/usr/lib/gap_riscv_toolchain/riscv32-unknown-elf/lib]
+  implicit libs: []
+  implicit dirs: [/usr/lib/gap_riscv_toolchain/lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap8/ilp32;/usr/lib/gap_riscv_toolchain/riscv32-unknown-elf/lib/rv32imcxgap8/ilp32;/usr/lib/gap_riscv_toolchain/lib/gcc/riscv32-unknown-elf/7.1.1;/usr/lib/gap_riscv_toolchain/lib/gcc;/usr/lib/gap_riscv_toolchain/riscv32-unknown-elf/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0bc6e/fast"
+make[5]: Entering directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0bc6e.dir/build.make CMakeFiles/cmTC_0bc6e.dir/build
+make[6]: Entering directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0bc6e.dir/feature_tests.c.obj
+/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc   -march=rv32imcxgap8 -mPE=8 -mFC=1 -D__riscv__ -D__pulp__ -fdata-sections -ffunction-sections -fno-jump-tables -fno-tree-loop-distribute-patterns    -std=c11 -o CMakeFiles/cmTC_0bc6e.dir/feature_tests.c.obj   -c /home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0bc6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bc6e.dir/link.txt --verbose=1
+/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc -march=rv32imcxgap8 -mPE=8 -mFC=1 -D__riscv__ -D__pulp__ -fdata-sections -ffunction-sections -fno-jump-tables -fno-tree-loop-distribute-patterns   -T/home/osboxes/gap_sdk/install/workstation/ld/link.gap8.ld -T/home/osboxes/gap_sdk/install/workstation/ld/gapuino.conf.ld -nostartfiles -nostdlib -Wl,--gc-sections  CMakeFiles/cmTC_0bc6e.dir/feature_tests.c.obj  -o cmTC_0bc6e 
+/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 000000001c000000
+make[6]: Leaving directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+make[5]: Leaving directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9f76/fast"
+make[5]: Entering directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f9f76.dir/build.make CMakeFiles/cmTC_f9f76.dir/build
+make[6]: Entering directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9f76.dir/feature_tests.c.obj
+/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc   -march=rv32imcxgap8 -mPE=8 -mFC=1 -D__riscv__ -D__pulp__ -fdata-sections -ffunction-sections -fno-jump-tables -fno-tree-loop-distribute-patterns    -std=c99 -o CMakeFiles/cmTC_f9f76.dir/feature_tests.c.obj   -c /home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f9f76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9f76.dir/link.txt --verbose=1
+/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc -march=rv32imcxgap8 -mPE=8 -mFC=1 -D__riscv__ -D__pulp__ -fdata-sections -ffunction-sections -fno-jump-tables -fno-tree-loop-distribute-patterns   -T/home/osboxes/gap_sdk/install/workstation/ld/link.gap8.ld -T/home/osboxes/gap_sdk/install/workstation/ld/gapuino.conf.ld -nostartfiles -nostdlib -Wl,--gc-sections  CMakeFiles/cmTC_f9f76.dir/feature_tests.c.obj  -o cmTC_f9f76 
+/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 000000001c000000
+make[6]: Leaving directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+make[5]: Leaving directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fdea/fast"
+make[5]: Entering directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7fdea.dir/build.make CMakeFiles/cmTC_7fdea.dir/build
+make[6]: Entering directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fdea.dir/feature_tests.c.obj
+/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc   -march=rv32imcxgap8 -mPE=8 -mFC=1 -D__riscv__ -D__pulp__ -fdata-sections -ffunction-sections -fno-jump-tables -fno-tree-loop-distribute-patterns    -std=c90 -o CMakeFiles/cmTC_7fdea.dir/feature_tests.c.obj   -c /home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7fdea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fdea.dir/link.txt --verbose=1
+/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc -march=rv32imcxgap8 -mPE=8 -mFC=1 -D__riscv__ -D__pulp__ -fdata-sections -ffunction-sections -fno-jump-tables -fno-tree-loop-distribute-patterns   -T/home/osboxes/gap_sdk/install/workstation/ld/link.gap8.ld -T/home/osboxes/gap_sdk/install/workstation/ld/gapuino.conf.ld -nostartfiles -nostdlib -Wl,--gc-sections  CMakeFiles/cmTC_7fdea.dir/feature_tests.c.obj  -o cmTC_7fdea 
+/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/../../../../riscv32-unknown-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 000000001c000000
+make[6]: Leaving directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+make[5]: Leaving directory '/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-build/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libae.a  CMakeFiles/ae.dir/ae/ae.c.o
+/usr/bin/ranlib libae.a

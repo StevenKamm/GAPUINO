@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/osboxes/gap_sdk/tools/pulp_tools/pulp-debug-bridge/src/log/../../include/log/log.hpp
+stdio.h
+-
+stdarg.h
+-
+mutex
+-
+
+/home/osboxes/gap_sdk/tools/pulp_tools/pulp-debug-bridge/src/log/log.cpp
+log.hpp
+/home/osboxes/gap_sdk/tools/pulp_tools/pulp-debug-bridge/src/log/log.hpp
+stdio.h
+-
+string.h
+-
+

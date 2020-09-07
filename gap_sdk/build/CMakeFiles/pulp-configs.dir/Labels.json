@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/osboxes/gap_sdk/build/CMakeFiles/pulp-configs"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/CMakeFiles/pulp-configs.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/CMakeFiles/pulp-configs-complete.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/pulp-configs-prefix/src/pulp-configs-stamp/pulp-configs-install.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/pulp-configs-prefix/src/pulp-configs-stamp/pulp-configs-mkdir.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/pulp-configs-prefix/src/pulp-configs-stamp/pulp-configs-download.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/pulp-configs-prefix/src/pulp-configs-stamp/pulp-configs-update.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/pulp-configs-prefix/src/pulp-configs-stamp/pulp-configs-patch.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/pulp-configs-prefix/src/pulp-configs-stamp/pulp-configs-configure.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/pulp-configs-prefix/src/pulp-configs-stamp/pulp-configs-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pulp-configs"
+		],
+		"name" : "pulp-configs"
+	}
+}

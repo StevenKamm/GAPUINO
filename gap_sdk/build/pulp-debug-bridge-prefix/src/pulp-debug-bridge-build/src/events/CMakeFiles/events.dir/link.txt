@@ -1,0 +1,2 @@
+/usr/bin/ar qc libevents.a  CMakeFiles/events.dir/circular-buffer.cpp.o CMakeFiles/events.dir/events.cpp.o CMakeFiles/events.dir/tcp-events.cpp.o
+/usr/bin/ranlib libevents.a

@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+a2062eaf325bcc9ae05646b21f86709f CMakeFiles/ftdi
+f2451b540ef4ca9aa52c3a97a48d00c3 CMakeFiles/ftdi-complete
+9920671b45bbd42b1232d1fef3e7b782 ftdi/src/ftdi-stamp/ftdi-build
+b60d4f111e74fc5684096f6bb760b309 ftdi/src/ftdi-stamp/ftdi-configure
+08cd4e26bf10a385c37b1e3a0b26401f ftdi/src/ftdi-stamp/ftdi-download
+b1be479be4dc77237c074673556328f5 ftdi/src/ftdi-stamp/ftdi-install
+ca3f878604054111a4721b044dee1c7f ftdi/src/ftdi-stamp/ftdi-mkdir
+da0d826180a1e332d28c1063ba823f9b ftdi/src/ftdi-stamp/ftdi-patch
+46af9e34321a0cef09b4c78f636cb1a8 ftdi/src/ftdi-stamp/ftdi-update

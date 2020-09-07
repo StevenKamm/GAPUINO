@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_BUILD_TYPE=Debug;-DCMAKE_INSTALL_PREFIX=/home/osboxes/gap_sdk/install/workstation;-DCMAKE_BUILD_TYPE=Debug;-DCMAKE_IGNORE_PATH=;-DWithConfigGenerators=ON;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

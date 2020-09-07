@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/osboxes/gap_sdk/build/CMakeFiles/json-tools"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/CMakeFiles/json-tools.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/CMakeFiles/json-tools-complete.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/json-tools-prefix/src/json-tools-stamp/json-tools-install.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/json-tools-prefix/src/json-tools-stamp/json-tools-mkdir.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/json-tools-prefix/src/json-tools-stamp/json-tools-download.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/json-tools-prefix/src/json-tools-stamp/json-tools-update.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/json-tools-prefix/src/json-tools-stamp/json-tools-patch.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/json-tools-prefix/src/json-tools-stamp/json-tools-configure.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/json-tools-prefix/src/json-tools-stamp/json-tools-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"json-tools"
+		],
+		"name" : "json-tools"
+	}
+}

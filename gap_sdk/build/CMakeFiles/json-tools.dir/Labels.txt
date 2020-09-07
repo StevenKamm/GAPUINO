@@ -1,0 +1,13 @@
+# Target labels
+ json-tools
+# Source files and their labels
+/home/osboxes/gap_sdk/build/CMakeFiles/json-tools
+/home/osboxes/gap_sdk/build/CMakeFiles/json-tools.rule
+/home/osboxes/gap_sdk/build/CMakeFiles/json-tools-complete.rule
+/home/osboxes/gap_sdk/build/json-tools-prefix/src/json-tools-stamp/json-tools-install.rule
+/home/osboxes/gap_sdk/build/json-tools-prefix/src/json-tools-stamp/json-tools-mkdir.rule
+/home/osboxes/gap_sdk/build/json-tools-prefix/src/json-tools-stamp/json-tools-download.rule
+/home/osboxes/gap_sdk/build/json-tools-prefix/src/json-tools-stamp/json-tools-update.rule
+/home/osboxes/gap_sdk/build/json-tools-prefix/src/json-tools-stamp/json-tools-patch.rule
+/home/osboxes/gap_sdk/build/json-tools-prefix/src/json-tools-stamp/json-tools-configure.rule
+/home/osboxes/gap_sdk/build/json-tools-prefix/src/json-tools-stamp/json-tools-build.rule

@@ -1,0 +1,7 @@
+/home/osboxes/gap_sdk/build/json-tools/CMakeFiles/edit_cache.dir
+/home/osboxes/gap_sdk/build/json-tools/CMakeFiles/install/strip.dir
+/home/osboxes/gap_sdk/build/json-tools/CMakeFiles/json.dir
+/home/osboxes/gap_sdk/build/json-tools/CMakeFiles/rebuild_cache.dir
+/home/osboxes/gap_sdk/build/json-tools/CMakeFiles/list_install_components.dir
+/home/osboxes/gap_sdk/build/json-tools/CMakeFiles/install/local.dir
+/home/osboxes/gap_sdk/build/json-tools/CMakeFiles/install.dir

@@ -1,0 +1,10 @@
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-build/ftdi/src/ftdi-build/install/lib/pkgconfig/libftdi1.pc
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-build/ftdi/src/ftdi-build/install/lib/pkgconfig/libftdipp1.pc
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-build/ftdi/src/ftdi-build/install/bin/libftdi1-config
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-build/ftdi/src/ftdi-build/install/lib/cmake/libftdi1/LibFTDI1Config.cmake
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-build/ftdi/src/ftdi-build/install/lib/cmake/libftdi1/LibFTDI1ConfigVersion.cmake
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-build/ftdi/src/ftdi-build/install/lib/cmake/libftdi1/UseLibFTDI1.cmake
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-build/ftdi/src/ftdi-build/install/lib/libftdi1.so.2.4.0
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-build/ftdi/src/ftdi-build/install/lib/libftdi1.so.2
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-build/ftdi/src/ftdi-build/install/lib/libftdi1.so
+/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-build/ftdi/src/ftdi-build/install/include/libftdi1/ftdi.h

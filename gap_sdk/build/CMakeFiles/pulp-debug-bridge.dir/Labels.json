@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/osboxes/gap_sdk/build/CMakeFiles/pulp-debug-bridge"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/CMakeFiles/pulp-debug-bridge.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/CMakeFiles/pulp-debug-bridge-complete.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-stamp/pulp-debug-bridge-install.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-stamp/pulp-debug-bridge-mkdir.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-stamp/pulp-debug-bridge-download.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-stamp/pulp-debug-bridge-update.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-stamp/pulp-debug-bridge-patch.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-stamp/pulp-debug-bridge-configure.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/pulp-debug-bridge-prefix/src/pulp-debug-bridge-stamp/pulp-debug-bridge-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pulp-debug-bridge"
+		],
+		"name" : "pulp-debug-bridge"
+	}
+}

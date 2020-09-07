@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/osboxes/gap_sdk/build/CMakeFiles/gap_flasher"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/CMakeFiles/gap_flasher.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/CMakeFiles/gap_flasher-complete.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-stamp/gap_flasher-install.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-stamp/gap_flasher-mkdir.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-stamp/gap_flasher-download.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-stamp/gap_flasher-update.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-stamp/gap_flasher-patch.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-stamp/gap_flasher-configure.rule"
+		},
+		{
+			"file" : "/home/osboxes/gap_sdk/build/gap_flasher-prefix/src/gap_flasher-stamp/gap_flasher-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gap_flasher"
+		],
+		"name" : "gap_flasher"
+	}
+}

@@ -1,0 +1,13 @@
+# Target labels
+ pulp-configs
+# Source files and their labels
+/home/osboxes/gap_sdk/build/CMakeFiles/pulp-configs
+/home/osboxes/gap_sdk/build/CMakeFiles/pulp-configs.rule
+/home/osboxes/gap_sdk/build/CMakeFiles/pulp-configs-complete.rule
+/home/osboxes/gap_sdk/build/pulp-configs-prefix/src/pulp-configs-stamp/pulp-configs-install.rule
+/home/osboxes/gap_sdk/build/pulp-configs-prefix/src/pulp-configs-stamp/pulp-configs-mkdir.rule
+/home/osboxes/gap_sdk/build/pulp-configs-prefix/src/pulp-configs-stamp/pulp-configs-download.rule
+/home/osboxes/gap_sdk/build/pulp-configs-prefix/src/pulp-configs-stamp/pulp-configs-update.rule
+/home/osboxes/gap_sdk/build/pulp-configs-prefix/src/pulp-configs-stamp/pulp-configs-patch.rule
+/home/osboxes/gap_sdk/build/pulp-configs-prefix/src/pulp-configs-stamp/pulp-configs-configure.rule
+/home/osboxes/gap_sdk/build/pulp-configs-prefix/src/pulp-configs-stamp/pulp-configs-build.rule

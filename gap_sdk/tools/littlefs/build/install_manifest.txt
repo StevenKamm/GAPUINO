@@ -1,0 +1,2 @@
+/home/osboxes/gap_sdk/install/workstation/bin/mklfs
+/home/osboxes/gap_sdk/install/workstation/bin/lslfs
